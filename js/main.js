@@ -49,7 +49,7 @@ $(document).ready(function () {
             <div class="card">
             <div class="card-body">
                 <h5 class="card-title">${user.name}</h5>
-                <h6 class="card-subtitle mb-2 text-muted"><a href="${user.blog}">${user.blog}</a></h6>
+                <h6 class="card-subtitle mb-2 text-muted"><a href="${user.blog}" target="_blank">${user.blog}</a></h6>
                 <div class="row">
                     <div class="col-md-3">
                         <img class="thumbnail avatar" src="${user.avatar_url}">
