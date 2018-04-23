@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Github Finder | AJAX and jQuery </title>
+    <!-- jQuery 3.3.1 minified -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <!-- Bootswatch Slate Style -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styling -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Github Finder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <main role="main" class="container">
+
+        <div class="searchContainer">
+            <h1>Search Github Users</h1>
+            <p class="lead">Enter a username to fetch a users profile information and repos</p>
+            <input type="text" id="searchUser" class="form-control" placeholder="Github Username">
+        </div>
+        <br>
+        <div id="profile"></div>
+
+    </main>
+    <!-- /.container -->
+    <!-- Bootstrap 4.1 JS minified -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
